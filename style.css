@@ -1,0 +1,50 @@
+/* Warna dari palet */
+:root {
+    --dark-blue: #1C5185;
+    --mid-blue: #0081CC;
+    --light-blue: #47BBFF;
+    --red: #F93827;
+    --gray: #EDEDED;
+  }
+  
+  body {
+    background-color: var(--gray);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Sidebar Styling */
+  .sidebar {
+    width: 250px;
+    background-color: var(--dark-blue);
+  }
+  
+  .profile-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  /* Card Custom Styling */
+  .learning-card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--mid-blue);
+    color: white;
+  }
+  
+  .learning-card .card-img-top {
+    max-height: 150px;
+    object-fit: cover;
+  }
+  
+  .learning-card .card-body {
+    background-color: var(--dark-blue);
+  }
+  
